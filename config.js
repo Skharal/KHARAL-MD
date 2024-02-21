@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("255734980103")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@cluster0.bfc7ce9.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'akk728492@gmail.com'
@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "session",
-  botname:   process.env.BOT_NAME === undefined ? 'MALIK-BOT' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ꪶꪖɀꪖᥴ𝘬-ꪑᦔ' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'arkhan' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
