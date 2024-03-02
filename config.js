@@ -9,19 +9,19 @@ global.port= process.env.PORT || 5000
 global.email = 'akk728492@gmail.com'
 global.github = 'https://github.com/arkhan998/MALIK-MD'
 global.location = 'Pakistan'
-global.gurl = 'king-md.db' // add your username
-global.sudo = process.env.SUDO || '923124533358'
+global.gurl = 'king-md.db' //  'romek xd'
+global.sudo = process.env.SUDO || '919341378016'
 global.devs = '923124533358';
 global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7538019d05afe65.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/b2cc43dc130528da4db38.png'
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "session",
-  botname:   process.env.BOT_NAME === undefined ? 'MALIK-BOT' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'arkhan' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝑅𝛩𝛭𝛯𝛫-𝛸𝐷-𝐵𝛩𝑇' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'romek' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO === undefined ? 'malik-Md' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO === undefined ? '𝑅𝛩𝛭𝛯𝛫-𝛸𝐷' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
