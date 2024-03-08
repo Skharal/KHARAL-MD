@@ -1,12 +1,12 @@
 {
-  "name": "MALIK-MD",
+  "name": "LAZACK-MD",
   "version": "0.0.7",
   "description": "Multi device whatsapp bot by malik.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name Malik",
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name Lazack",
     "stop": "pm2 stop Malik"
   },
   "author": "arkhan998",
