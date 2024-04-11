@@ -16,7 +16,7 @@ cmd({
   pattern: 'antidelete',
   fromMe: true,
   desc: 'Configure Anti-Delete preferences',
-  category: 'admin',
+  category: 'owner',
 }, async (Void, citel, text) => {
   const args = text.split(' | ');
 
