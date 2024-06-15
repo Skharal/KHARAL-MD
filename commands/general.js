@@ -33,7 +33,7 @@ cmd({
         alias : ["advertisement"],
         category: "AI",
         desc: "Advertise of your Message, by sending it to provided nmbr range.",
-        use: '923096566451xx,Your_text_here',
+        use: '923310195292xx,Your_text_here',
         filename: __filename,
   },
   async(Void, citel, text , { isCreator }) => {
@@ -56,7 +56,7 @@ cmd({
         pattern: "gpt",
         desc: "chat with an AI",
         category: "AI",
-        use: '<Hii, Naveed Dogar Info>',
+        use: '<Hii, MALIK SAHAB Info>',
         filename: __filename,
     },
     async(Void, citel,text) => 
@@ -115,7 +115,7 @@ cmd({
     alias :['cgpt'],
     desc: "chat with an AI",
     category: "AI",
-    use: '<Hii,King-Md>',
+    use: '<Hii,MALIK-MD>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -212,15 +212,15 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/naveeddogar/KING-MD')
-        let cap = `🔰Hey ${citel.pushName} Welcome To King-Md🔰\n
+        let { data } = await axios.get('https://api.github.com/repos/arkhan998/MALIK-MD')
+        let cap = `🔰Hey ${citel.pushName} Welcome To MALIK-MD🔰\n
 *❲❍❳ STARS:* ${data.stargazers_count} stars
 *❲❍❳ FORKS:* ${data.forks_count} forks
-*❲❍❳ AUTHOR:* Naveed Dogar
-*❲❍❳ REPO:* github.com/naveeddogar/KING-MD
-*❲❍❳ SCAN:* king-session.vercel.app
+*❲❍❳ AUTHOR:* ATA UR REHMAN
+*❲❍❳ REPO:* github.com/arkhan998/MALIK-MD
+*❲❍❳ SCAN:* https://malik-md-qr-generater.onrender.com/
 *❲❍❳ VISit For Deploy:*-
-https://tinyurl.com/Technical-Naveed-Official`
+https://youtube.com/@technicalmalikoffical?si=cnIe9R5ukti5kS1N`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -229,12 +229,12 @@ https://tinyurl.com/Technical-Naveed-Official`
             contextInfo: {
                 externalAdReply: {
 		showAdAttribution: true,
-                    title: "KING-MD",
+                    title: "MALIK-MD",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: '',
-                    sourceUrl: `https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w`,
+                    sourceUrl: `https://whatsapp.com/channel/0029VaN8WMOHFxP0SLAKKu0P`,
                 },
             },
         };
@@ -280,7 +280,7 @@ cmd({
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: '',
-                    sourceUrl: `https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w`,
+                    sourceUrl: `https://whatsapp.com/channel/0029VaN8WMOHFxP0SLAKKu0P`,
                 },
             },
         };
@@ -401,7 +401,7 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
-    pattern: "king",
+    pattern: "Malik",
     desc: "To find all themes",
     category: "general",
     filename: __filename,
@@ -409,8 +409,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in king-md*"
-str+=`1. KING-MD\n2. ANIME\n\n these are the themes of King-Md Userbot.\_Reply ${prefix}setvar THEME:ANIME`
+let str="*All available themes in Malik-md*"
+str+=`1. MALIK-MD\n2. ANIME\n\n these are the themes of Malik-md Userbot.\_Reply ${prefix}setvar THEME:ANIME`
 return citel.reply(str)
     
 }
