@@ -3,13 +3,13 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@cluster0.bfc7ce9.mongodb.net/"
+global.owner = process.env.OWNER_NUMBER.split("923124533358")
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://maliksahab:maliksahab@cluster0.pkr0dsx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
 global.port= process.env.PORT || 5000
 global.email = 'akk728492@gmail.com'
 global.github = 'https://github.com/arkhan998/MALIK-MD'
 global.location = 'Pakistan'
-global.gurl = 'king-md.db' // add your username
+global.gurl = 'malik-md.db' // add your username
 global.sudo = process.env.SUDO || '923124533358'
 global.devs = '923124533358';
 global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
