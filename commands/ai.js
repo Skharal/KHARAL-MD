@@ -5,7 +5,7 @@ smd({
     use: "<text>",
     filename: __filename,
   }, async (Void, citel , text, { cmdName }) => {
-    if (!text) return citel.reply(`*_Please provide a query_*\n*_Example ${prefix + cmdName} What is the meaning of life?_*`);
+    if (!text) return citel.reply(`*_Please provide a word_*\n*_Example ${prefix + cmdName} What is the meaning of life?_*`);
   
     try {
       const res = await (await fetch(`https://api.maher-zubair.tech/ai/gemini?q=${text}`)).json();
