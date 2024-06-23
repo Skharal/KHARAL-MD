@@ -612,7 +612,7 @@ cmd({
             if (!citel.isGroup) return citel.reply(tlang().group);
             const groupAdmins = await getAdmin(Void, citel)
             const botNumber = await Void.decodeJid(Void.user.id)
-            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : true;
             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
 
             if (!isAdmins) return citel.reply(tlang().admin);
@@ -639,7 +639,7 @@ cmd({
             if (!citel.isGroup) return citel.reply(tlang().group);
             const groupAdmins = await getAdmin(Void, citel)
             const botNumber = await Void.decodeJid(Void.user.id)
-            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : true;
             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
 
             if (!isAdmins) return citel.reply(tlang().admin);
@@ -786,7 +786,7 @@ cmd({
             if (!citel.isGroup) return citel.reply(tlang().group);
             const groupAdmins = await getAdmin(Void, citel)
             const botNumber = await Void.decodeJid(Void.user.id)
-            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+            const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : true;
             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
 
             if (!text) return citel.reply("Please provide me number.");
