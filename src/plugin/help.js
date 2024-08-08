@@ -90,17 +90,17 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳*
 │📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
-│👤 ɴᴜᴍʙᴇʀ: 919142294671
+│👨‍💻 ᴏᴡɴᴇʀ : *𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳*      
+│👤 ɴᴜᴍʙᴇʀ: 923057473911
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By Ethix-MD"
+              text: "© Powered By 𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -116,13 +116,13 @@ let mode = ethix.public ? 'public' : 'private';
                   "buttonParamsJson": `{"title":"🔖𝚻𝚫𝚸 𝐅𝚯𝚪 𝚯𝚸𝚵𝚴 𝚳𝚵𝚴𝐔",
                  "sections":
                    [{
-                    "title":"😎 𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "title":"😎 𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
                     "highlight_label":"🤩 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
                     "rows":[
                       {
                        "header":"",
                        "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"🎨𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
+                       "description":"🎨𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
                        "id":"View All Menu"
                       },
                       {
@@ -207,10 +207,10 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳*
 │📍 ᴠᴇʀꜱɪᴏɴ: 2.0.3
-│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
-│👤 ɴᴜᴍʙᴇʀ: 919142294671
+│👨‍💻 ᴏᴡɴᴇʀ : *𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳*      
+│👤 ɴᴜᴍʙᴇʀ: 923057473911
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
@@ -323,7 +323,7 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `Ethix-MD`,
+                    displayName: `𝙺𝙷𝙰𝚁𝙰𝙻-𝙼𝙳`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Ethix-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
